@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D11E8111C6563120012E981 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D11E8101C6563120012E981 /* HomeViewController.swift */; };
+		3D11E8131C65631A0012E981 /* NewItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D11E8121C65631A0012E981 /* NewItemViewController.swift */; };
 		3DDA1EDA1C65604200DF6404 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDA1ED91C65604200DF6404 /* AppDelegate.swift */; };
-		3DDA1EDC1C65604200DF6404 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDA1EDB1C65604200DF6404 /* ViewController.swift */; };
 		3DDA1EDF1C65604200DF6404 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DDA1EDD1C65604200DF6404 /* Main.storyboard */; };
 		3DDA1EE11C65604200DF6404 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DDA1EE01C65604200DF6404 /* Assets.xcassets */; };
 		3DDA1EE41C65604200DF6404 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DDA1EE21C65604200DF6404 /* LaunchScreen.storyboard */; };
 		3DDA1EEF1C65604200DF6404 /* MyToDoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDA1EEE1C65604200DF6404 /* MyToDoAppTests.swift */; };
 		3DDA1EFA1C65604200DF6404 /* MyToDoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDA1EF91C65604200DF6404 /* MyToDoAppUITests.swift */; };
+		3DDA1F111C65620500DF6404 /* BaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDA1F101C65620500DF6404 /* BaseClass.swift */; };
+		3DDA1F131C65621F00DF6404 /* ToDoItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDA1F121C65621F00DF6404 /* ToDoItems.swift */; };
+		3DDA1F151C65622D00DF6404 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDA1F141C65622D00DF6404 /* Store.swift */; };
+		3DDA1F171C6562A200DF6404 /* ObjectsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDA1F161C6562A200DF6404 /* ObjectsProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D11E8101C6563120012E981 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3D11E8121C65631A0012E981 /* NewItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewItemViewController.swift; sourceTree = "<group>"; };
 		3DDA1ED61C65604200DF6404 /* MyToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DDA1ED91C65604200DF6404 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3DDA1EDB1C65604200DF6404 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3DDA1EDE1C65604200DF6404 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3DDA1EE01C65604200DF6404 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DDA1EE31C65604200DF6404 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,10 @@
 		3DDA1EF51C65604200DF6404 /* MyToDoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyToDoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DDA1EF91C65604200DF6404 /* MyToDoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyToDoAppUITests.swift; sourceTree = "<group>"; };
 		3DDA1EFB1C65604200DF6404 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DDA1F101C65620500DF6404 /* BaseClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseClass.swift; sourceTree = "<group>"; };
+		3DDA1F121C65621F00DF6404 /* ToDoItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoItems.swift; sourceTree = "<group>"; };
+		3DDA1F141C65622D00DF6404 /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		3DDA1F161C6562A200DF6404 /* ObjectsProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectsProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +107,11 @@
 		3DDA1ED81C65604200DF6404 /* MyToDoApp */ = {
 			isa = PBXGroup;
 			children = (
-				3DDA1ED91C65604200DF6404 /* AppDelegate.swift */,
-				3DDA1EDB1C65604200DF6404 /* ViewController.swift */,
-				3DDA1EDD1C65604200DF6404 /* Main.storyboard */,
-				3DDA1EE01C65604200DF6404 /* Assets.xcassets */,
-				3DDA1EE21C65604200DF6404 /* LaunchScreen.storyboard */,
-				3DDA1EE51C65604200DF6404 /* Info.plist */,
+				3DDA1F071C65612200DF6404 /* Global */,
+				3DDA1F0B1C65615D00DF6404 /* Protocols */,
+				3DDA1F0A1C65615600DF6404 /* Controllers */,
+				3DDA1F081C65614400DF6404 /* Models */,
+				3DDA1F091C65614E00DF6404 /* Views */,
 			);
 			path = MyToDoApp;
 			sourceTree = "<group>";
@@ -123,6 +132,52 @@
 				3DDA1EFB1C65604200DF6404 /* Info.plist */,
 			);
 			path = MyToDoAppUITests;
+			sourceTree = "<group>";
+		};
+		3DDA1F071C65612200DF6404 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				3DDA1EE51C65604200DF6404 /* Info.plist */,
+				3DDA1EE01C65604200DF6404 /* Assets.xcassets */,
+				3DDA1ED91C65604200DF6404 /* AppDelegate.swift */,
+			);
+			name = Global;
+			sourceTree = "<group>";
+		};
+		3DDA1F081C65614400DF6404 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3DDA1F141C65622D00DF6404 /* Store.swift */,
+				3DDA1F121C65621F00DF6404 /* ToDoItems.swift */,
+				3DDA1F101C65620500DF6404 /* BaseClass.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		3DDA1F091C65614E00DF6404 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3DDA1EE21C65604200DF6404 /* LaunchScreen.storyboard */,
+				3DDA1EDD1C65604200DF6404 /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		3DDA1F0A1C65615600DF6404 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3D11E8101C6563120012E981 /* HomeViewController.swift */,
+				3D11E8121C65631A0012E981 /* NewItemViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		3DDA1F0B1C65615D00DF6404 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3DDA1F161C6562A200DF6404 /* ObjectsProtocol.swift */,
+			);
+			name = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +311,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3DDA1EDC1C65604200DF6404 /* ViewController.swift in Sources */,
 				3DDA1EDA1C65604200DF6404 /* AppDelegate.swift in Sources */,
+				3DDA1F111C65620500DF6404 /* BaseClass.swift in Sources */,
+				3DDA1F131C65621F00DF6404 /* ToDoItems.swift in Sources */,
+				3DDA1F171C6562A200DF6404 /* ObjectsProtocol.swift in Sources */,
+				3D11E8111C6563120012E981 /* HomeViewController.swift in Sources */,
+				3D11E8131C65631A0012E981 /* NewItemViewController.swift in Sources */,
+				3DDA1F151C65622D00DF6404 /* Store.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +544,7 @@
 				3DDA1F001C65604200DF6404 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DDA1F011C65604200DF6404 /* Build configuration list for PBXNativeTarget "MyToDoAppTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +553,7 @@
 				3DDA1F031C65604200DF6404 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DDA1F041C65604200DF6404 /* Build configuration list for PBXNativeTarget "MyToDoAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +562,7 @@
 				3DDA1F061C65604200DF6404 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
