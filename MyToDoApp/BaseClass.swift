@@ -9,5 +9,11 @@
 import UIKit
 
 class BaseClass: NSObject {
-
+    let identifier: String
+    
+    override init() {
+        self.identifier = NSUUID().UUIDString
+        super.init()
+    }
+    
 }

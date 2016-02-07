@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+class Store: ObjectsProtocol {
+    static let share = Store()
+    
+    
+}
