@@ -25,6 +25,7 @@ extension ObjectsProtocol {
     
     func add(object:Object) {
         self.objects.append(object)
+        
     }
     
     func objectForIndexPath(indexPath:NSIndexPath) -> Object {
@@ -39,8 +40,8 @@ extension ObjectsProtocol {
         return self.objects.removeAtIndex(indexPath.row)
     }
     
-    func count() {
-        self.objects.count
+    func count() -> Int {
+        return self.objects.count
     }
     
     func save(file:String) {

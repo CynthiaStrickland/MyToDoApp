@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D04F1651C67E4AA0012A93B /* Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D04F1641C67E4AA0012A93B /* Additions.swift */; };
 		3D11E8111C6563120012E981 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D11E8101C6563120012E981 /* HomeViewController.swift */; };
 		3D11E8131C65631A0012E981 /* NewItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D11E8121C65631A0012E981 /* NewItemViewController.swift */; };
 		3DDA1EDA1C65604200DF6404 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDA1ED91C65604200DF6404 /* AppDelegate.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D04F1641C67E4AA0012A93B /* Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Additions.swift; sourceTree = "<group>"; };
 		3D11E8101C6563120012E981 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		3D11E8121C65631A0012E981 /* NewItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewItemViewController.swift; sourceTree = "<group>"; };
 		3DDA1ED61C65604200DF6404 /* MyToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -176,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				3DDA1F161C6562A200DF6404 /* ObjectsProtocol.swift */,
+				3D04F1641C67E4AA0012A93B /* Additions.swift */,
 			);
 			name = Protocols;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DDA1EDA1C65604200DF6404 /* AppDelegate.swift in Sources */,
+				3D04F1651C67E4AA0012A93B /* Additions.swift in Sources */,
 				3DDA1F111C65620500DF6404 /* BaseClass.swift in Sources */,
 				3DDA1F131C65621F00DF6404 /* ToDoItems.swift in Sources */,
 				3DDA1F171C6562A200DF6404 /* ObjectsProtocol.swift in Sources */,
@@ -460,6 +464,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyToDoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cynthia.whitlatch.MyToDoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -471,6 +476,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyToDoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cynthia.whitlatch.MyToDoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";

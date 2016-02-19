@@ -9,7 +9,7 @@
 import UIKit
 
 class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
-
+    
     @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {
@@ -20,7 +20,7 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
         super.viewWillAppear(animated)
         self.tableView.reloadData()
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
@@ -33,10 +33,10 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
         cell.textLabel?.text = item.itemDescription
         cell.detailTextLabel?.text = "Created on: \(NSDateFormatter.localizedStringFromDate(item.itemDate, dateStyle: .ShortStyle, timeStyle: .NoStyle))"
         return cell
-        }
+    }
     
     // MARK: UITableViewDataSource
-
+    
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return Store.shared.count()
     }
@@ -56,7 +56,7 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
             
             Store.shared.removeObject(Store.shared.objectForIndexPath(indexPath))
             tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: UITableViewRowAnimation.Fade)
-
+            
         }
     }
 }
